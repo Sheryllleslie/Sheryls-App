@@ -6,7 +6,7 @@ export default function AppButton(props) {
     }
 
     return (
-    <Pressable onPress = {randomSong} style={styles.buttonStyle}>
+    <Pressable style={styles.buttonStyle}>
         <Text style={styles.textStyle}> {props.ButtonText} </Text>
       </Pressable>
   );
